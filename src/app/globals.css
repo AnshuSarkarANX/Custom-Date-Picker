@@ -4,24 +4,52 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground:#191919;
+  --color-primary: 71, 114, 250;
+    --color-grey: 25, 25, 25;
+    --color-gallery: 238, 238, 238;
+    --color-main-background: 255, 255, 255;
+    --color-primary-front: 0, 0, 0;
+    --color-summer-bg: 5, 93, 116;
+    --color-card-bg: 250, 250, 250;
+    --color-dark-card-bg: 30, 30, 30;
+    --color-white: 255, 255, 255;
+    --color-black: 0, 0, 0;
+    --color-priority-low: 71, 114, 250;
+    --color-priority-medium: 250, 168, 12;
+    --color-priority-high: 225, 62, 57;
+    --color-min-cal-color: 255, 255, 255;
+    --color-sidebar-icon-number-color: 242, 245, 254;
+    --color-sidebar-color: 25, 25, 25;
+    --color-sidebar-bg-color: 242, 245, 254;
+    --color-left-sidebar-color: 255, 255, 255;
+    --color-left-sidebar-bg-color: 249, 249, 249;
+    --color-orange: 255, 89, 0;
+    --color-green: 12, 206, 156;
+    --color-turquoise: 16, 195, 238;
+    --color-dark-red: 224, 49, 49;
+    --color-brand-primary: 71, 114, 250;
+    --color-brand-secondary: 255, 176, 0;
+    --color-brand-black: 25, 25, 25;
+    --color-warn-red: 224, 49, 49;
+    --color-highlight: 251, 193, 64;
+    --color-highlight-sub: 242, 217, 162;
+    --color-team-orange: 251, 129, 66;
+    --color-team-orange-active: 206, 108, 58;
+    --color-team-orange-hover: 252, 154, 104;
+    --color-team-orange-disable: 253, 205, 179;
+    --color-cancel-btn-hover: 244, 244, 244;
+    --color-cancel-btn-active: 232, 232, 232;
+    --color-screen-background: 255, 255, 255;
+    --color-light-black: 51, 51, 51;
+    --color-pro: 255, 142, 10;
+    --color-btn-active-color: 62, 96, 205;
+    --color-btn-hover-color: 108, 142, 251;
+    --color-btn-disable-color: 181, 199, 253
+  
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }
